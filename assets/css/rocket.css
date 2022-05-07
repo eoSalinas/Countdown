@@ -4,3 +4,12 @@
 
     margin-left: 1rem;
 }
+
+
+/* RESPONSIVE */
+/* Phone Only */
+@media (max-width: 599px) {
+    .rocket {
+        margin: 4rem 0 0 0;
+    }   
+}

@@ -7,3 +7,11 @@
     align-items: center;
     justify-content: center;
 }
+
+/* RESPONSIVE */
+/* Phone Only */
+@media (max-width: 599px) {
+    .cta {
+        width: 100%;
+    }   
+}

@@ -18,3 +18,11 @@ main {
     justify-content: center;
     align-items: center;
 }
+
+/* RESPONSIVE */
+/* Phone Only */
+@media (max-width: 599px) {
+    main {
+        flex-direction: column;
+    }
+}

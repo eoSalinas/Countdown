@@ -7,3 +7,14 @@
     text-transform: uppercase;
     letter-spacing: 0.3rem;
 }
+
+/* RESPONSIVE */
+/* Phone Only */
+@media (max-width: 599px) {
+    .cta__headline {
+        width: 85vw;
+
+        font-size: 2rem;
+        text-align: center;
+    }
+}
