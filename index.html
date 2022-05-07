@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown to Launch</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Reset -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Waves Design -->
+    <link rel="stylesheet" href="./assets/css/waves.css">
+    <!-- Call to Action -->
+    <link rel="stylesheet" href="./assets/css/cta/cta.css">
+    <link rel="stylesheet" href="./assets/css/cta/cta-headline.css">
+    <link rel="stylesheet" href="./assets/css/cta/cta-subtitle.css">
+    <link rel="stylesheet" href="./assets/css/cta/cta-btn.css">
+    <!-- Countdown -->
+    <link rel="stylesheet" href="./assets/css/countdown/countdown.css">
+    <link rel="stylesheet" href="./assets/css/countdown/countdown-info.css">
+    <link rel="stylesheet" href="./assets/css/countdown/countdown-divider.css">
+    <link rel="stylesheet" href="./assets/css/countdown/countdown-font.css">
+    <!-- Rocket -->
+    <link rel="stylesheet" href="./assets/css/rocket.css">
+</head>
+
+<body>
+    <!-- Wave Design -->
+    <div class="waves wave--top"></div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Call to Action -->
+        <section class="cta">
+            <h1 class="cta__headline">Ready to launch in...</h1>
+
+            <!-- Countdown -->
+            <div class="countdown">
+                <!-- Days -->
+                <div class="countdown__info countdown--font">
+                    <span>Days</span>
+                    <p id="day"></p>
+                </div>
+
+                <!-- : -->
+                <div class="countdown__divider countdown--font"><span>:</span></div>
+
+                <!-- Hours -->
+                <div class="countdown__info countdown--font">
+                    <span>Hours</span>
+                    <p id="hour"></p>
+                </div>
+
+                <!-- : -->
+                <div class="countdown__divider countdown--font"><span>:</span></div>
+
+                <!-- Minutes -->
+                <div class="countdown__info countdown--font">
+                    <span>Minutes</span>
+                    <p id="minute"></p>
+                </div>
+
+                <!-- : -->
+                <div class="countdown__divider countdown--font"><span>:</span></div>
+
+                <!-- Seconds -->
+                <div class="countdown__info countdown--font">
+                    <span>Seconds</span>
+                    <p id="second"></p>
+                </div>
+            </div>
+
+            <p class="cta__subtitle">Inscreva-se para saber mais sobre o lançamento!</p>
+
+            <a class="cta__btn" href="#">Inscreva-se</a>
+        </section>
+
+        <!-- Rocket Design -->
+        <img class="rocket" src="./assets/image/rocket.svg" alt="">
+    </main>
+
+    <!-- Wave Design -->
+    <div class="waves wave--bottom"></div>
+
+    <!-- JS -->
+    <script src="./assets/js/countdown.js"></script>
+
+</body>
+
+</html>

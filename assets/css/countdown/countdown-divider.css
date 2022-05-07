@@ -1,0 +1,12 @@
+.countdown__divider {
+    height: auto;
+    width: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown__divider span {
+    margin-top: 1.5rem;
+}
